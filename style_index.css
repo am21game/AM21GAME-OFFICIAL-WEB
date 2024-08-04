@@ -1,0 +1,66 @@
+body {
+    background-color: brown;
+}
+#header {
+    font-family: "Nabla", system-ui;
+    font-size: 400%;
+    text-align: center;
+    background-color: brown;
+
+}
+
+#h2header {
+    font-family: "Nabla", system-ui;
+    font-size: 300%;
+    background-color: brown;
+    
+}
+
+#inicioheader {
+    font-family: "Honk", system-ui;
+    font-size: 200%;
+    text-align: left;
+}
+
+#inicioheader a:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color: none;
+}
+
+#conteudo {
+    font-family: "Honk", system-ui;
+    font-size: 200%;
+    text-align: center;
+}
+
+#conteudo a:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color: none;
+}
+
+#linkcanal {
+    font-family: "Honk",system-ui;
+    font-size: 200%;
+    text-align: right;
+}
+
+#linkcanal a:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color: none;
+}
+#navp1h2 {
+    font-family: "Honk", system-ui;
+    font-size: 250%;
+    
+}
+
+#paragrafo1 {
+    font-family: "Sedgwick Ave Display";
+    color: coral;
+}
