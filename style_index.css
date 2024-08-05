@@ -1,6 +1,8 @@
 body {
     background-color: brown;
 }
+
+
 #header {
     font-family: "Nabla", system-ui;
     font-size: 400%;
@@ -13,7 +15,7 @@ body {
     font-family: "Nabla", system-ui;
     font-size: 300%;
     background-color: brown;
-    
+    text-align: center;
 }
 
 #inicioheader {
@@ -29,23 +31,35 @@ body {
     color: none;
 }
 
+#inicioheader a:active {
+    font-size: 205%;
+}
+
 #conteudo {
     font-family: "Honk", system-ui;
     font-size: 200%;
     text-align: center;
+    margin-top: -4.8%;
 }
 
-#conteudo a:hover {
+#conteudo a:hover:active {
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: wavy;
     color: none;
 }
 
+#conteudo a:active {
+    font-size: 205%;
+    
+
+}    
+
 #linkcanal {
     font-family: "Honk",system-ui;
     font-size: 200%;
     text-align: right;
+    margin-top: -4.8%;
 }
 
 #linkcanal a:hover {
@@ -54,6 +68,11 @@ body {
     text-decoration: wavy;
     color: none;
 }
+
+#linkcanal a:active {
+    font-size: 205%;
+}
+
 #navp1h2 {
     font-family: "Honk", system-ui;
     font-size: 250%;
@@ -63,4 +82,44 @@ body {
 #paragrafo1 {
     font-family: "Sedgwick Ave Display";
     color: coral;
+    font-size: 150%;
+}
+
+#paragrafo1:hover {
+    color: aliceblue;
+}
+
+#h2content {
+    font-family: "Honk", system-ui;
+    font-size: 250%
+
+}
+
+#pcontent {
+    font-family: "Sedgwick Ave Display";
+    color: coral;
+    font-size: 150%;
+}
+
+#pcontent:hover {
+    color: aliceblue;
+}
+
+#h2content2 {
+    font-family: "Sedgwick Ave Display";
+    color: coral;
+    font-size: 150%;
+}
+
+#h2content2:hover {
+    color: aliceblue;
+}
+
+#mw3{
+
+}
+
+#lspdfr {
+    text-align: end;
+
 }
