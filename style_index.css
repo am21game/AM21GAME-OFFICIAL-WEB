@@ -2,20 +2,40 @@ body {
     background-color: brown;
 }
 
+@keyframes fire {
+    0% { text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000, 0 0 25px #ff0000; }
+    50% { text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500, 0 0 40px #ff4500, 0 0 50px #ff4500; }
+    100% { text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000, 0 0 25px #ff0000; }
+}
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+
 
 #header {
-    font-family: "Nabla", system-ui;
+    font-family: "Honk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 400%;
     text-align: center;
     background-color: brown;
+    animation: fire 1s infinite, shake 1.5s infinite;
 
 }
 
 #h2header {
-    font-family: "Nabla", system-ui;
+    font-family: "Honk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 300%;
     background-color: brown;
     text-align: center;
+    animation: fire 1s infinite, shake 1.5s infinite;
+}
+
+#inicioheader ,
+#conteudo ,
+#linkcanal {
+    align-items: baseline;
 }
 
 #inicioheader {
@@ -42,18 +62,12 @@ body {
     margin-top: -4.8%;
 }
 
-#conteudo a:hover:active {
+#conteudo a:hover {
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: wavy;
     color: none;
 }
-
-#conteudo a:active {
-    font-size: 205%;
-    
-
-}    
 
 #linkcanal {
     font-family: "Honk",system-ui;
@@ -91,7 +105,7 @@ body {
 
 #h2content {
     font-family: "Honk", system-ui;
-    font-size: 250%
+    font-size: 350%
 
 }
 
@@ -115,11 +129,106 @@ body {
     color: aliceblue;
 }
 
-#mw3{
+#h1playlist {
+    font-family: "Honk", system-ui;
+    font-size: 350%
+}
 
+#playlist {
+    display: flex;
+    flex-direction: column;
+}
+#mw3block{
+    justify-content: space-around;
+    margin-top: 5%;
+    display: flex;
+    text-align: end;
+    align-content: flex-end;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#mw3 {
+    flex: 0 0 560px;
+    height: 360px;
+}
+
+#mw3descrição {
+    font-family: "Honk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    display: flex;
+    text-align: justify;
+    margin-left: 8% ;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+#lspdfrblock {
+    display: flex;
+    text-align: end;
+    align-content:flex-end;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #lspdfr {
-    text-align: end;
+    flex: 0 0 560px;
+    height: 360px;
+}
 
+#lspdfrdescrição {
+    font-family: "Honk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    display: flex;
+    text-align: justify;
+    margin-left: 8% ;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+#gkblock {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+
+
+}
+
+#gk {
+    flex: 0 0 560px;
+    height: 360px;
+}
+
+#gkdescrição {
+    font-family: "Honk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    display: flex;
+    align-content: space-between;
+    text-align:justify;
+    margin-left: 8%;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+    text-transform: uppercase;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    top: 18;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 5%;
+    background-color: rgb(255, 115, 0);
+    
+}
+
+footer:hover {
+    font-family: "Honk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    background-color: brown;
+    
 }
