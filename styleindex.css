@@ -15,7 +15,7 @@ body {
     opacity: 0.9;
     filter: blur(0.6px);
     border-radius: 50%;
-    border-style:groove
+    border-style:groove;
 }
 
 @keyframes fire {
