@@ -103,6 +103,31 @@ body {
     color: aliceblue;
 }
 
+#ponto1,
+#ponto2,
+#ponto3,
+#ponto4,
+#ponto5,
+#ponto6 {
+    font-family: "Sedgwick Ave Display";
+    color: coral;
+    font-size: 150%;
+    display: flex;
+    text-align: justify;
+    margin-top:5% ;
+    margin-bottom: 2%;
+}
+
+#ponto1:hover,
+#ponto2:hover,
+#ponto3:hover,
+#ponto4:hover,
+#ponto5:hover,
+#ponto6:hover {
+    color: aliceblue;
+    font-size: 200%;
+}
+
 #h2content {
     font-family: "Honk", system-ui;
     font-size: 350%
